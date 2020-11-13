@@ -58,8 +58,6 @@ Enter a Number for a specific output:
 
 <br/>
 
-***Now Tool-X is installed successfully. To run Tool-X Type `Tool-X` or `toolx` in your terminal.***
-
 Type `Tool-X` or `toolx` from anywhere in your terminal to open Tool-X.
 
 ------------------------------------------------------------------------
