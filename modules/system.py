@@ -96,9 +96,9 @@ class sys:
       self.bin="/sbin"
       self.pac="apk"
 
-  # def connection(self):
-  #   try:
-  #     if requests.get("https://www.google.com").ok:
-  #       return True
-  #   except:
-  #     return False
+  def connection(self):
+    try:
+      if requests.get("https://www.google.com").ok:
+        return True
+    except:
+      return False
