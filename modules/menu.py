@@ -143,10 +143,10 @@ class main:
               os.system("clear")
               logo.update_error()
               cmd=input("\033[1;36m ##> \033[00m")
-         else:
-           os.system("clear")
-           logo.nonet()
-           tmp=input("\033[1;36m ##> \033[00m")
+        else:
+          os.system("clear")
+          logo.nonet()
+          tmp=input("\033[1;36m ##> \033[00m")
       elif cmd=="0" or cmd=="back":
         self.menu()
         break
@@ -316,7 +316,7 @@ class tools:
             os.system("clear")
             logo.not_installed(name)
             tmp=input("\033[1;36m ##> \033[00m")
-     else:
-       os.system("clear")
-       logo.nonet()
-       tmp=input("\033[1;36m ##> \033[00m")
+    else:
+      os.system("clear")
+      logo.nonet()
+      tmp=input("\033[1;36m ##> \033[00m")
