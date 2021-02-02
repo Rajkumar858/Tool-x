@@ -264,9 +264,9 @@ class tools:
           tmp=input("\033[1;36m ##> \033[00m")
         else:
           if system.sudo != None:
-            os.popen(system.sudo+" git clone "+url+" "+system.home+"/"+package_name)
+            os.system(system.sudo+" git clone "+url+" "+system.home+"/"+package_name)
           else:
-            os.popen("git clone "+url+" "+system.home+"/"+package_name)
+            os.system("git clone "+url+" "+system.home+"/"+package_name)
           # check tool is installed or not
           if os.path.exists(system.home+"/"+package_name):
             os.system("clear")
